@@ -110,6 +110,70 @@
    right: 20%;
    top: 180%;
 }
+/* coming-soon-section  css */
+.coming-soon-section{
+    width: 1600px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.coming-soon-middle-part{
+    background-color:#fff;
+    border:15px solid red;    
+    border-radius:50%;
+    padding: 30px;
+    position: absolute;
+    left: 40%;
+}
+.coming-soon-left-part{
+  position: absolute;
+  left:15%;
+}
+.coming-soon-left-top-part{
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+.coming-soon-left-middle-part{
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+}
+.coming-soon-left-bottom-part{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    margin-top: 6px;
+}
+.coming-soon-right-part{
+    position: absolute;
+    right: 13%;
+    padding-top: 75px;
+}
+.coming-soon-right-middle-part >span{
+    color: #F00;
+}
+.coming-soon-right-top-part{
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+.coming-soon-right-middle-part{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    margin-top: 6px;
+}
+.coming-soon-right-bottom-part{
+    margin-top: 40px;
+}
 /* portfolio-section css */
 .portfolio-section{
     max-width: 1600px;
@@ -134,10 +198,7 @@
     color: #070211;
     font-family: 'Merriweather', serif;
     font-size: 48px;
-    font-style: normal;
     font-weight: 900;
-    line-height: normal;
-    text-transform: capitalize;
     margin-bottom: 20px;
 }
 .portfolio-images{
@@ -153,6 +214,16 @@
     display: flex;
     flex-direction: row;
     gap: 30px;
+}
+.img-container img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: all 0.3s ease-out;
+	cursor: pointer;
+}
+.img-container img:hover {
+	transform: scale(1.2);
 }
 /* newsletter-section css */
 .newsletter-section{
@@ -179,10 +250,7 @@
     color: #070211;
     font-family: 'Merriweather', serif;
     font-size: 48px;
-    font-style: normal;
     font-weight: 900;
-    line-height: normal;
-    text-transform: capitalize;
     margin-top: 20px;
 }
 .newsletter-input-part{
@@ -211,6 +279,9 @@
     font-weight: 600;
     font-size: 20px;
 }
+.newsletter-descrip >span{
+    color: #F00;
+}
 /* footer css */
 .footer-container{
     min-width:1900px;
@@ -218,7 +289,7 @@
     background: #070211;
     position: absolute;
     text-align: center;
-    top: 450%;
+    top: 530%;
     font-family: 'Inter', sans-serif;
 }
 .hrline{
